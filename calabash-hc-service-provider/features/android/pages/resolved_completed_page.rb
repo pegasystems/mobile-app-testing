@@ -1,3 +1,7 @@
+#  
+# Copyright (c) 2017 and Confidential to Pegasystems Inc. All rights reserved.  
+#  
+
 class ResolvedCompletedPage < CommonPage
 
   UPPER_PART_XPATH = '//*[@id="l1"]'

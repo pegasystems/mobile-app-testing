@@ -1,3 +1,7 @@
+#  
+# Copyright (c) 2017 and Confidential to Pegasystems Inc. All rights reserved.  
+#  
+
 Then (/^I am on Reason for Dispute page$/) do
   @page = ReasonToDisputePage.new(self)
   @page.check_elements

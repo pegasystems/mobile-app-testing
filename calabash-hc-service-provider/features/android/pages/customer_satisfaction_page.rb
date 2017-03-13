@@ -1,3 +1,7 @@
+#  
+# Copyright (c) 2017 and Confidential to Pegasystems Inc. All rights reserved.  
+#  
+
 class CustomerSatisfactionPage < CommonPage
 
   PEGA_ICON_XPATH = '//img[@src="webwb/py-logo_1662150348.svg!!.svg"]'

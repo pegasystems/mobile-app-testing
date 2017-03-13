@@ -1,3 +1,7 @@
+#  
+# Copyright (c) 2017 and Confidential to Pegasystems Inc. All rights reserved.  
+#  
+
 class ReasonToDisputePage < CommonPage
 
   PAID_BY_OTHER_MEANS_XPATH = '//label[@for="ReasonForDisputePaid by Other Means"]'

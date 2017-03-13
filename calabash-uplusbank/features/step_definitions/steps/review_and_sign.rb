@@ -1,3 +1,7 @@
+#  
+# Copyright (c) 2017 and Confidential to Pegasystems Inc. All rights reserved.  
+#  
+
 Then (/^I am on Review & Sign page$/) do
   @page = ReviewAndSignPage.new(self)
   @page.check_elements

@@ -1,3 +1,7 @@
+#  
+# Copyright (c) 2017 and Confidential to Pegasystems Inc. All rights reserved.  
+#  
+
 Then (/^I am on Transaction date page$/) do
   @page = TransactionDatePage.new(self)
   @page.check_elements

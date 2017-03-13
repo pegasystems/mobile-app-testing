@@ -1,3 +1,7 @@
+#  
+# Copyright (c) 2017 and Confidential to Pegasystems Inc. All rights reserved.  
+#  
+
 class ReviewAndSignPage < CommonPage
 
   FORM_TITLE_XPATH = '//button[normalize-space(text())="Review & Sign"]'

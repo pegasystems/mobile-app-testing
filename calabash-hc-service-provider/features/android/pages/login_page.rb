@@ -1,3 +1,7 @@
+#  
+# Copyright (c) 2017 and Confidential to Pegasystems Inc. All rights reserved.  
+#  
+
 class LoginPage < CommonPage
 
   MAIN_LOGO_LOGIN_PAGE_XPATH = '//img[@class="logo fx1"]'

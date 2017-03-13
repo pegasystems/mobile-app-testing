@@ -1,3 +1,7 @@
+#  
+# Copyright (c) 2017 and Confidential to Pegasystems Inc. All rights reserved.  
+#  
+
 When (/^I am on Getting started page$/) do
   @page = DisputeTransactionPage.new(self)
   @page.check_elements

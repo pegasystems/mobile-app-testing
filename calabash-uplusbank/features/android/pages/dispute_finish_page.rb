@@ -1,3 +1,7 @@
+#  
+# Copyright (c) 2017 and Confidential to Pegasystems Inc. All rights reserved.  
+#  
+
 class DisputeFinishPage < CommonPage
 
   CASE_ID_LABEL_XPATH = '//div[normalize-space(text())="Your Case ID is:"]'

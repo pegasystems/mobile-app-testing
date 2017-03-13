@@ -1,3 +1,7 @@
+#  
+# Copyright (c) 2017 and Confidential to Pegasystems Inc. All rights reserved.  
+#  
+
 Then "I am on Service Request page" do
   @page = ServiceRequestPage.new(self)
   @page.check_elements
