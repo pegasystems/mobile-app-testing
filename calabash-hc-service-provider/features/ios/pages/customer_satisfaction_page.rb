@@ -4,12 +4,10 @@
 
 class CustomerSatisfactionPage < CommonPage
 
-  PEGA_ICON_XPATH = '//img[@src="webwb/py-logo_1662150348.svg!!.svg"]'
   CUSTOMER_SATISFACTION_TEXT_XPATH = '//span[normalize-space(text())="Customer satisfaction"]'
   NPS_SCORE_DROP_DOWN_MENU_XPATH = '//select[@id="NPSScore"]'
 
   def check_elements
-    wait_for_element_exists("#{WEB_VIEW} xpath:'#{PEGA_ICON_XPATH}'")
     wait_for_element_exists("#{WEB_VIEW} xpath:'#{CUSTOMER_SATISFACTION_TEXT_XPATH}'")
   end
 

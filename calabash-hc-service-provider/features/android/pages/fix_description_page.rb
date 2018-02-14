@@ -4,12 +4,10 @@
 
 class FixDescriptionPage < CommonPage
 
-  PEGA_ICON_XPATH = '//img[@src="webwb/py-logo_1662150348.svg!!.svg"]'
   FIX_TEXT_XPATH = '//span[normalize-space(text())="Fix"]'
   FIX_DESCRIPTION_FORM_XPATH = '//textarea[@id="FixDescription"]'
 
   def check_elements
-    wait_till_element_appears("#{WEB_VIEW} xpath:'#{PEGA_ICON_XPATH}'")
     wait_till_element_appears("#{WEB_VIEW} xpath:'#{FIX_TEXT_XPATH}'")
     wait_till_element_appears("#{WEB_VIEW} xpath:'#{FIX_DESCRIPTION_FORM_XPATH}'")
   end
