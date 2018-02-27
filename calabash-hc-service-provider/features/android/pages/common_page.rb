@@ -12,7 +12,7 @@ class CommonPage < Calabash::ABase
   HAMBURGER_MENU_ELEMENTS_XPATH = '//*[@class="menu-item menu-item-enabled" and not(@title)]'
   LOG_OFF_OPTION_XPATH = '//span[@class="menu-item-title" and normalize-space(text())="Log off"]'
 
-  def wait_till_element_appears(query, timeout = 15)
+  def wait_till_element_appears(query, timeout = 30)
     sleep 1 and timeout -= 1 while timeout > 0 and (!element_exists(query) rescue true)
     wait_for_element_exists(query)
   end
